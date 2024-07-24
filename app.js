@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const reinitVideoTimeout = () => {
     setTimeout(() => {
-      wall.classList.remove('active')
       videoContainer.classList.add('active')
       video.play()    
     }, 1000 * videoDelay)
