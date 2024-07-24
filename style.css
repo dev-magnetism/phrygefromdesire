@@ -5,6 +5,7 @@ html, body {
 body {
   height: 100vh;
   overflow: hidden;
+  pointer-events: none;
 }
 
 @media (orientation: landscape) {
